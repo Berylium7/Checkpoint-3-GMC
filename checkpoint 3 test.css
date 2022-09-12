@@ -1,0 +1,235 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input-form{
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 850px;
+}
+
+.input-radio{
+    color: white;
+    font-size: 13px;
+}
+
+#YES {
+    cursor: pointer;
+}
+#NO {
+    cursor: pointer;
+}
+
+.input-radio label{
+    cursor: pointer;
+}
+
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(SUD.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.logo{
+    position: absolute;
+    width: 60px;
+    top: 1%;
+    left: 1%;
+}
+.banner-text{
+    margin-top: -20px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+}
+.banner-text h1{
+    font-size: 130px;
+}
+.banner-text article{
+    font-size: 15px;    
+}
+.banner-text span{
+    color:yellow;
+    text-decoration:underline;
+    
+}
+.banner-button{
+    margin: 20px auto 0;
+}
+.banner-button a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 0%;
+}
+#sidenav{
+    border: 1px solid white;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: orange;
+}
+
+nav ul{
+    margin-top: 60px;
+    position: relative;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding: 20px 10px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul ul{
+    border: 1px solid black;
+    position: absolute;
+    display: none;
+    background-color: orangeed ;
+    background: linear-gradient(orange,yellow);
+    right: 101px;
+    width: 100px;
+    margin-top: -57px;
+}
+.menu-about{
+    position: relative;
+}
+.menu-about:hover ul{
+    display: initial;
+}
+
+#ManuBtn{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+#ManuBtn img{
+    width: 50px;
+}
+
+.youtube{
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-right: 485px;
+    margin-left: 360px;
+}
+
+#Title2{
+    text-align: center;
+    margin-right: 9%;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+}
+
+#submit{
+    cursor: pointer;
+}
+#reset{
+    cursor: pointer;
+}
+#reset2{
+    cursor: pointer;
+}
+#reset2{
+    font-size: 13px;
+}
+.down{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 1210px;
+    text-decoration:none;
+    color: white;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    animation-delay: 0.5s;
+}
+
+.up{
+    text-align: center;
+    margin-top: -490px;
+    margin-left: 30px;
+    margin-right: 1230px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    animation-delay: 0.5s;
+}
+
+#banner2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(CRATERE.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.table{
+    display: grid;
+    text-align: center;
+    margin-left: 420px;
+    margin-right: 540px;
+    grid-template-columns: 1fr 1fr 1;
+    color: black;
+}
+th{
+    display: table-cell;
+    padding: 2px;
+    border: 1px solid white ;
+    background-color: orangered;
+}
+td{
+    display: table-cell;
+    padding: 2px;
+    border: 1px solid white ;
+    background-color: gray;
+}
+
+#divhome{
+    background-color: transparent;
+    text-decoration: none;   
+}
+button{
+    width: 50px;
+    height: 20px;
+    background-color:wheat;
+    font-size: 80%;
+    border-radius: 15%;
+}
+
+footer{
+    border-top: 1px solid black;
+    margin-top: -25px;
+    width: 92%;
+    height: 4vh;
+    background: orangered;
+}
+footer p{
+    color: black;
+    text-align: center;
+}
